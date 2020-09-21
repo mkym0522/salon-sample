@@ -1,11 +1,7 @@
-.container {
+.main-container {
     background-color: #fff !important;
     padding: 50px 80px;
     box-shadow: 2px 2px 4px gray;
-}
-
-.container h2 {
-    margin-bottom: 30px;
 }
 
 .footer-menu {
@@ -34,7 +30,6 @@ h2:before {
 }
 
 h4 {
-    width: 600px;
     margin: 30px auto;
     padding-bottom: 10px;
     border-bottom: dashed 2px #6594e0;

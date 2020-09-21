@@ -7,8 +7,8 @@
 	<title>salon-sample</title>
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css"
 		integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous" />
-	<link href="css/reservation.css" media="all" rel="stylesheet" type="text/css" />
 	<link href="css/style.css" media="all" rel="stylesheet" type="text/css" />
+	<link href="css/contact.css" media="all" rel="stylesheet" type="text/css" />
 	<link rel="stylesheet"
 		href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-material-datetimepicker/2.7.1/css/bootstrap-material-datetimepicker.min.css" />
 	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
@@ -19,12 +19,37 @@
 </head>
 
 <body>
-	<div class="container">
-		<h2>お問い合わせ</h2>
-		<iframe
-			src="https://docs.google.com/forms/d/e/1FAIpQLSdKD56AGe9Gkx8HpMwsGXmd1F6UKQu5DETQdGTh3Knm3fuXUQ/viewform?embedded=true"
-			width="100%" height="1000" frameborder="0" marginheight="0" marginwidth="0">読み込んでいます…</iframe>
-	</div>
+	<header>
+		<nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+			<div class="header-nav container-fluid container">
+				<a class="navbar-brand" href="index.html">salon-sample</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+					aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+					<div class="navbar-nav">
+						<a class="nav-link active" aria-current="page" href="profile.html">profile</a>
+						<a class="nav-link" href="information.html">カウンセリングについて</a>
+						<a class="nav-link" href="menu.html">カウンセリングメニュー・料金</a>
+						<a class="nav-link" href="contact.html">お問い合わせ</a>
+						<a class="nav-link" href="reservation.html">ご予約ページ</a>
+					</div>
+				</div>
+			</div>
+		</nav>
+	</header>
+
+	<main>
+		<div class="container">
+			<div class="main-container">
+				<h2>お問い合わせ</h2>
+				<iframe
+					src="https://docs.google.com/forms/d/e/1FAIpQLSdKD56AGe9Gkx8HpMwsGXmd1F6UKQu5DETQdGTh3Knm3fuXUQ/viewform?embedded=true"
+					width="100%" height="1000" frameborder="0" marginheight="0" marginwidth="0">読み込んでいます…</iframe>
+			</div>
+		</div>
+	</main>
 
 	<!-- footer -->
 	<ul class="footer-menu">
