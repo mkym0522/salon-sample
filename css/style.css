@@ -99,7 +99,16 @@ a.link {
 }
 
 .footer-menu {
+  display: block;
   margin: 20px 0px;
+}
+
+/*-- スマホ版表示CSS  --*/
+
+@media screen and (max-width: 768px) {
+  .footer-menu {
+    display: none;
+  }
 }
 
 /* btn */
